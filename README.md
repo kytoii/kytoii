@@ -1,9 +1,7 @@
-```rust
+```kyto
 // Hello, World!
-fn main() {
-
-    let name: String = "Kytoii".to_string();
-    let email: String = "kytoii.conect@gmail.com".to_string();
-
+module output::printer <- {
+    name = "Kytoii"
+    email = "kytoii.conect@gmail.com"
 }
 ```
